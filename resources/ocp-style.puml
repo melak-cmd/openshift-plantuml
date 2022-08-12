@@ -1,0 +1,24 @@
+' Colors
+' Based on https://www.redhat.com/en/about/brand/standards/color
+!define OPENSHIFT_REDHAT_RED #EE0000
+!define OPENSHIFT_REDHAT_WHITE #FFFFFF
+!define OPENSHIFT_REDHAT_BLACK #000000
+
+' Font
+' Based on 
+' - https://www.redhat.com/en/about/brand/standards/typography
+' - https://github.com/RedHatOfficial/RedHatFont
+!define OPENSHIFT_REDHAT_FONT "Red Hat Text"
+
+' Default coloring for all Openshift components
+' Based on https://github.com/dcasati/kubernetes-PlantUML/blob/master/dist/kubernetes_Common.puml#L28
+!definelong KubernetesEntityColoring(e_stereo)
+skinparam rectangle<<e_stereo>> {
+    BackgroundColor KUBERNETES_BG_COLOR
+    BorderColor KUBERNETES_BORDER_COLOR
+}
+!enddefinelong
+
+@startuml
+listfonts
+@enduml
