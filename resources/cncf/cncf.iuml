@@ -1,0 +1,2 @@
+!include https://raw.githubusercontent.com/melak-cmd/openshift-plantuml/main/resources/cncf/kubernetes/all.iuml
+!include https://raw.githubusercontent.com/melak-cmd/openshift-plantuml/main/resources/cncf/prometheus/prometheus.iuml
